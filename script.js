@@ -8,16 +8,16 @@ function isLampBroken () {
 
 function lampOn () {
     if (!isLampBroken ())
-    lamp.src = 'assets/ligada.jpg'
+    lamp.src = '.assets/ligada.jpg'
 }
 
 function lampOff () {
     if (!isLampBroken ())
-    lamp.src = 'assets/desligada.jpg'
+    lamp.src = '.assets/desligada.jpg'
 }
 
 function lampBreak() {
-    lamp.src = 'assets/quebrada.jpg'
+    lamp.src = '.assets/quebrada.jpg'
 }
 
 
